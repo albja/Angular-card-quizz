@@ -1,9 +1,43 @@
+* {
+  background-color: ghostwhite;
+  max-width: screen;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: ghostwhite;
+}
+.sizebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1em;
+}
+
 .center {
   text-align: center;
+  border: 1px solid rebeccapurple;
+  padding: 0.5em;
 }
 
 input {
   height: 30px;
   width: 450px;
   font-size: medium;
+  margin-bottom: 1em;
+}
+
+button {
+  margin-bottom: 1em;
+  width: 250px;
+  font-size: large;
 }
