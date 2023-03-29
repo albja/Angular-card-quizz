@@ -50,7 +50,7 @@ class User {
       case this.photo = "https://imgr.cineserie.com/2022/04/big_1435767819_image.jpg?imgeng=/f_jpg/cmpr_0/w_660/m_box&ver=1":
         this.photo = "https://static.lpnt.fr/images/2017/03/10/7413751lpw-7414094-article-jpg_4146645_1250x625.jpg"
         break;
-      default: ''
+      default: alert(`that's all guys !!!!`)
     }
 
   }
