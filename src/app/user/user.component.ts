@@ -51,6 +51,7 @@ class User {
         this.photo = "https://static.lpnt.fr/images/2017/03/10/7413751lpw-7414094-article-jpg_4146645_1250x625.jpg"
         break;
       default: alert(`that's all guys !!!!`)
+        this.photo = "https://media.istockphoto.com/id/1152085853/fr/vectoriel/le-fond-d%C3%A9cran-noir-et-blanc-dextr%C3%A9mit%C3%A9-fond-d%C3%A9cran-de-fin-de-film-la-fin-du-film-ou.jpg?s=612x612&w=0&k=20&c=eQMDdHwn9QLq_b9mGKA61OlvxXO6zK2s_bbCiFYfbBs="
     }
 
   }
