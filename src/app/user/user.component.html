@@ -1,25 +1,27 @@
-<div ngClass="sizebox">
-  <div ngClass="center">
-    <img
-      (click)="(user.togglePhoto)"
-      width="650px"
-      [alt]="user.firstName"
-      [src]="user.photo"
-    />
+<div class="card">
+  <div ngClass="sizebox">
+    <div ngClass="center">
+      <img
+        (click)="(user.togglePhoto)"
+        width="650px"
+        [alt]="user.firstName"
+        [src]="user.photo"
+      />
 
-    <div>
-      <h1>Hello {{ user.firstName }} {{ user.name }}</h1>
+      <div>
+        <h1>Hello {{ user.firstName }} {{ user.name }}</h1>
+      </div>
+      <div>
+        <h2>Âge: {{ user.age }} ans</h2>
+      </div>
+      <h3 ngClass="left">Sa Citation:</h3>
+      <h4>{{ user.quote }}</h4>
+      <div><input type="text" [(ngModel)]="user.quote" /></div>
+      <button (click)="user.togglePhoto()">Change ma tête</button><br /><button
+        (click)="user.onClickMe1()"
+      >
+        Réponse
+      </button>
     </div>
-    <div>
-      <h2>Âge: {{ user.age }} ans</h2>
-    </div>
-    <h3 ngClass="left">Sa Citation:</h3>
-    <h4>{{ user.quote }}</h4>
-    <div><input type="text" [(ngModel)]="user.quote" /></div>
-    <button (click)="user.togglePhoto()">Change ma tête</button><br /><button
-      (click)="user.onClickMe1()"
-    >
-      Réponse
-    </button>
   </div>
 </div>
