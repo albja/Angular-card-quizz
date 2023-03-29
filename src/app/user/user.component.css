@@ -1,0 +1,9 @@
+.center {
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  width: 450px;
+  font-size: medium;
+}
